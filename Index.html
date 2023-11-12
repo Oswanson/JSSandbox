@@ -13,12 +13,49 @@
 	<script> 
   const myNumber = 3;
 console.log(myNumber);
-conosle.log ("Goodbye World");
+conosle.log("Goodbye World");
 document.getElementById("Title").innerHTML = "Goodbye";
 var myArray = ["What is the meaning of life?", 42, true];
 console.log(myArray[0]);
 console.log(myArray[1]);
 console.log(myArray[2]);
+var a = 1;
+var b = 2;
+var c = a + b;
+console.log(a)
+console.log(b)
+console.log(c)
+var Password = 1234;
+if (Password == 1234)
+
+{
+    console.log("The number is correct.");
+}
+var anArray = ["A", "B", "C"];
+for (var i = 0; i < anArray.length; i++)
+{
+    console.log("The member of anArray in index " + i + " is " + anArray[i]);
+}
+var person = {
+    firstName : "Owen",
+    lastName : "Swanson",
+    age : 14,
+    employed : false
+}
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.age);
+console.log(person.employed);
+alert("Hello");
+var callback = function() {
+    console.log("Done!");
+}
+
+setTimeout(callback, 5000);
+const greet = (name) => { return "Hello " + name + "!"; }
+
+console.log(greet("Eric"));
     </script>
   </body>
+  
 </html>
